@@ -1,0 +1,6 @@
+{
+  "editor.rulers": [],
+  "cmake.ignoreCMakeListsMissing": true,
+  "dart.hotReloadOnSave": "allIfDirty",
+  "dart.flutterHotReloadOnSave": "allIfDirty"
+}
