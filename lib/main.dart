@@ -2,6 +2,7 @@ import 'package:flavory/asset/menu.dart';
 import 'package:flavory/asset/navbar.dart';
 import 'package:flavory/pages/favorite.dart';
 import 'package:flavory/pages/home.dart';
+import 'package:flavory/pages/groceries.dart';
 import 'package:flavory/provider/favorite_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -28,20 +29,8 @@ class _MyAppState extends State<MyApp> {
   // Define your pages here
   static final List<Widget> _pages = <Widget>[
     const HomePage(),
-    const Center(
-      child: Text(
-        'Shopping Cart',
-        style: TextStyle(fontSize: 24),
-      ),
-    ),
+    GroceriesApp(),
     const FavoritePage(),
-    const Center(
-      child: Text(
-        'Profile',
-        style: TextStyle(fontSize: 24),
-      ),
-    ),
-    // Add more pages as needed
   ];
 
   void _onTabTapped(int index) {

@@ -54,7 +54,7 @@ class Menu extends StatelessWidget {
             },
           ),
           IconButton(
-            icon: const Icon(Icons.shopping_cart),
+            icon: const Icon(Icons.local_grocery_store),
             color: selectedIndex == 1 ? const Color(0xFFF58B2A) : Colors.grey,
             onPressed: () {
               onTabTapped(1);
